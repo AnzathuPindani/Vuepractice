@@ -26,6 +26,8 @@ alert("You can't Leave");
     <a :href="href" target="_blank">
       <button :disabled="disabled">Click to visit my favourite website</button>
     </a>
+
+    <h2>{{ coding_years>0?`I have been codinf for ${coding_years}`:"I am a new bee" }}</h2>
   </div>
 
 </template>
