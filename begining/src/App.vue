@@ -27,7 +27,7 @@ alert("You can't Leave");
       <button :disabled="disabled">Click to visit my favourite website</button>
     </a>
 
-    <h2>{{ coding_years>0?`I have been codinf for ${coding_years}`:"I am a new bee" }}</h2>
+    <h2 v-on:[event]="coding_years++">{{ coding_years }}</h2>
   </div>
 
 </template>
